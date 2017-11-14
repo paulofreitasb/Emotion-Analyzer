@@ -1,7 +1,7 @@
 <?php
 require 'environment.php';
 
-define("DEFAULT_URL", "http://localhost:1234/PHPProject");
+define("DEFAULT_URL", "http://localhost/PHPProject");
 global $config;
 
 $config = array();
