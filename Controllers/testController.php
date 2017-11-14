@@ -15,18 +15,12 @@ class testController extends Controller {
       curl_close($ch);
       //echo json_encode($result, JSON_UNESCAPED_UNICODE);
       $arrayRetorno = json_decode($result, TRUE);
-
       echo  "<pre>";
       print_r($arrayRetorno);
       echo  "</pre>";
-
       //echo $arrayRetorno[custom_classes];
       echo $arrayRetorno['images'][0]['classifiers'][0]['classes'][0]['class'];
       echo $arrayRetorno['images'][0]['classifiers'][0]['classes'][0]['score'];
-
-
-
-
 
       /*
       echo  "<pre>";

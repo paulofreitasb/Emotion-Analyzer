@@ -1,10 +1,32 @@
 
 <!-- page content -->
 <div class="right_col" role="main">
+
+  <div class="row tile_count">
+
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+      <span class="count_top"><i class="fa fa-user"></i> Total Homens</span>
+      <div class="count green">50</div>
+
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+      <span class="count_top"><i class="fa fa-user"></i> Total Mulheres</span>
+      <div class="count">45</div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+      <span class="count_top"><i class="fa fa-user"></i> Total Faces</span>
+      <div class="count">95</div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+      <span class="count_top"><i class="fa fa-user"></i> Total Requisições</span>
+      <div class="count">2315</div>
+    </div>
+  </div>
+
   <div class="">
     <div class="page-title">
       <div class="title_left">
-        <h3> Media Gallery <small> gallery design</small> </h3>
+        <h3> Dashboard <small> Emotion Analyzer</small> </h3>
       </div>
 
       <div class="title_right">
@@ -23,40 +45,39 @@
 
     <div class="row">
       <div class="col-md-12">
+
         <div class="x_panel">
-          <div class="x_title">
-            <h2>Media Gallery <small> gallery design </small></h2>
-            <ul class="nav navbar-right panel_toolbox">
-              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Settings 1</a>
-                  </li>
-                  <li><a href="#">Settings 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a class="close-link"><i class="fa fa-close"></i></a>
-              </li>
-            </ul>
-            <div class="clearfix"></div>
-          </div>
-          <div class="x_content">
 
-            <div class="row"> <!-- ESSE VAI SER O "ENTRY POINT" -->
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="dashboard_graph">
 
-              <p>ESSE VAI SER O "ENTRY POINT"</p>
+              <div class="row x_title">
+                <div class="col-md-6">
+                  <h3>Niveis de felicidade x tristeza - dia</h3>
+                </div>
+                <div class="col-md-6">
+                  <div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                    <span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-9 col-sm-9 col-xs-12">
+                <div id="chart_plot_01" class="demo-placeholder"></div>
+              </div>
 
 
+
+              <div class="clearfix"></div>
             </div>
-
-
           </div>
         </div>
+
+
       </div>
     </div>
+
   </div>
 </div>
 <!-- /page content -->

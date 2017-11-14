@@ -1,7 +1,7 @@
 <?php
 require 'environment.php';
 
-define("DEFAULT_URL", "http://localhost/PHPProject");
+define("DEFAULT_URL", "http://localhost/Emotion-Analyzer");
 global $config;
 
 $config = array();
