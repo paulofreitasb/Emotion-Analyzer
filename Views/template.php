@@ -21,9 +21,7 @@
   <link href="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/nprogress/nprogress.css" rel="stylesheet">
 
   <!-- Custom styling plus plugins -->
-  <link href="<?php echo DEFAULT_URL."/Assets"; ?>/build/css/custom.min.css" rel="stylesheet">
-
-
+  <link href="<?php echo DEFAULT_URL."/Assets"; ?>/build/css/custom.css" rel="stylesheet">
 
   <!-- iCheck -->
   <link href="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
@@ -34,9 +32,6 @@
   <link href="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
   <!-- bootstrap-daterangepicker -->
   <link href="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
-
-
-
 
 
 </head>
@@ -171,9 +166,6 @@ $this->loadViewInTemplate($viewName, $viewData);
 
 
 
-
-
-
 <!-- footer content -->
 <footer>
   <div class="pull-right">
@@ -220,7 +212,8 @@ $this->loadViewInTemplate($viewName, $viewData);
 <script src="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
 <script src="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/flot.curvedlines/curvedLines.js"></script>
 <!-- DateJS -->
-<script src="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/DateJS/build/date.js"></script>
+
+
 <!-- JQVMap -->
 <script src="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/jqvmap/dist/jquery.vmap.js"></script>
 <script src="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
@@ -233,10 +226,6 @@ $this->loadViewInTemplate($viewName, $viewData);
 <!-- morris.js -->
 <script src="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/raphael/raphael.min.js"></script>
 <script src="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/morris.js/morris.min.js"></script>
-
-
-
-
 
 
 </body>

@@ -1,6 +1,5 @@
-
 <!-- page content -->
-<div class="right_col" role="main">
+<div class="right_col">
 
   <div class="row tile_count">
 
@@ -94,3 +93,5 @@
   </div>
 </div>
 <!-- /page content -->
+
+<script src="<?php echo DEFAULT_URL."/Assets"; ?>/vendors/DateJS/build/date.js"></script>
